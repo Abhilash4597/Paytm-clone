@@ -204,9 +204,73 @@ h4 a {
 }
 
 .download_button:hover {
-    background-color: #ffffff;;
+    background-color: #ffffff;
+    ;
     color: black
 }
+
 .right_content {
     margin-top: 120px;
+}
+
+.small_block_div1 {
+    background-color: rgb(0, 186, 242);
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+.small_block_div1 h1 {
+    color: #ffffff;
+    font-size: 35px;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.blocks {
+    border-radius: 15px;
+    width: 130px;
+    padding: 12px;
+}
+
+.small_block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.small_block :hover {
+    background-color: rgb(21, 161, 204);
+}
+
+.blocks img {
+    margin-bottom: 10px;
+}
+
+.blocks p {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.small_block_div2 {
+    background-color: #0f4a8a;
+    padding-bottom: 50px;
+}
+
+.small_block_div2 h1 {
+    color: #ffffff;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.small_block2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.small_block2 :hover {
+    background-color: #10355c;
 }
