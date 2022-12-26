@@ -1,276 +1,279 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100px;
-    background-color: #ffffff;
-    /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  background-color: #ffffff;
+  /* border: 2px solid blue; */
 }
 
 .left_header img {
-    height: 70px;
+  height: 70px;
 }
 
 .mid_header {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .mid_header a {
-    margin: 14px;
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
+  margin: 14px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .mid_header a:hover {
-    background-color: rgb(243, 241, 241);
+  background-color: rgb(243, 241, 241);
 }
 
 .signIn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #00baf2;
-    padding: 8px 0;
-    padding-left: 20px;
-    padding-right: 2px;
-    border-radius: 50px;
-    height: 20px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00baf2;
+  padding: 8px 0;
+  padding-left: 20px;
+  padding-right: 2px;
+  border-radius: 50px;
+  height: 20px;
+  cursor: pointer;
 }
 
 .signIn button {
-    border: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: white;
-    background-color: #00baf2;
-    cursor: pointer;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: #00baf2;
+  cursor: pointer;
 }
 
 .login_page {
-    margin-right: 20%;
-    margin-left: 20%;
-    border: 2px solid #fff;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 1px 10px 5px #888888;
-    position: fixed;
-    display: none;
+  margin-right: 20%;
+  margin-left: 20%;
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px 5px #888888;
+  position: fixed;
+  display: flex;
+}
+
+.display_block {
+  display: none;
 }
 
 .left_side {
-    width: 450px;
-    background-color: rgb(240, 247, 248);
-    border-radius: 5px;
+  width: 450px;
+  background-color: rgb(240, 247, 248);
+  border-radius: 5px;
 }
 
 .left_side h3 {
-    margin: 20px;
+  margin: 20px;
 }
 
 .left_side li {
-    margin: 20px 0;
-    margin-left: 40px;
+  margin: 20px 0;
+  margin-left: 40px;
 }
 
 ol .lastline {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .watch {
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    margin-top: 25px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  margin-top: 25px;
 }
 
 .watch a {
-    text-decoration: none;
-    color: rgb(0, 140, 255);
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: bold;
+  text-decoration: none;
+  color: rgb(0, 140, 255);
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .left_side p {
-    margin-top: 70px;
-    margin-left: 20px;
-    font-size: 15px;
+  margin-top: 70px;
+  margin-left: 20px;
+  font-size: 15px;
 }
 
 .button {
-    margin-top: 30px;
-    margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .button .google {
-    text-decoration: none;
-    border: 1px solid rgb(146, 143, 143);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 15px;
-    color: rgb(146, 143, 143);
-    font-weight: bold;
+  text-decoration: none;
+  border: 1px solid rgb(146, 143, 143);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: rgb(146, 143, 143);
+  font-weight: bold;
 }
 
 .google i {
-    font-size: 20px;
-    margin-right: 10px;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 .button .apple {
-    text-decoration: none;
-    border: 1px solid rgb(146, 143, 143);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 15px;
-    color: rgb(146, 143, 143);
-    font-weight: bold;
+  text-decoration: none;
+  border: 1px solid rgb(146, 143, 143);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: rgb(146, 143, 143);
+  font-weight: bold;
 }
 
 .apple i {
-    font-size: 20px;
-    margin-right: 10px;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 .right_side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .right_side p {
-    font-size: 17px;
-    margin-bottom: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
 }
 
 h4 {
-    /* border: 2px solid grey; */
-    padding: 12px;
-    text-align: center;
-    background-color: rgb(240, 238, 238);
+  /* border: 2px solid grey; */
+  padding: 12px;
+  text-align: center;
+  background-color: rgb(240, 238, 238);
 }
 
 h4 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .first_mid_content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .left_content {
-    width: 40%;
-    margin-left: 50px;
-    margin-top: 150px;
+  width: 40%;
+  margin-left: 50px;
+  margin-top: 150px;
 }
 
 .left_content h1 {
-    font-size: 50px;
-    margin-top: 50px;
+  font-size: 50px;
+  margin-top: 50px;
 }
 
 .left_content p {
-    font-size: 22px;
-    margin-top: 20px;
+  font-size: 22px;
+  margin-top: 20px;
 }
 
 .download_button {
-    background-color: black;
-    color: #ffffff;
-    padding: 10px;
-    font-size: 16px;
-    width: 250px;
-    border-radius: 25px;
-    margin-top: 40px;
+  background-color: black;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border-radius: 25px;
+  margin-top: 40px;
 }
 
 .download_button i {
-    font-size: 18px;
-    margin-left: 5px;
+  font-size: 18px;
+  margin-left: 5px;
 }
 
 .download_button:hover {
-    background-color: #ffffff;
-    ;
-    color: black
+  background-color: #ffffff;
+  color: black;
 }
 
 .right_content {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .small_block_div1 {
-    background-color: rgb(0, 186, 242);
-    margin-top: 80px;
-    padding-bottom: 50px;
+  background-color: rgb(0, 186, 242);
+  margin-top: 80px;
+  padding-bottom: 50px;
 }
 
 .small_block_div1 h1 {
-    color: #ffffff;
-    font-size: 35px;
-    padding-top: 70px;
-    padding-left: 40px;
+  color: #ffffff;
+  font-size: 35px;
+  padding-top: 70px;
+  padding-left: 40px;
 }
 
 .blocks {
-    border-radius: 15px;
-    width: 130px;
-    padding: 12px;
+  border-radius: 15px;
+  width: 130px;
+  padding: 12px;
 }
 
 .small_block {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
 
 .small_block :hover {
-    background-color: rgb(21, 161, 204);
+  background-color: rgb(21, 161, 204);
 }
 
 .blocks img {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .blocks p {
-    font-weight: bold;
-    margin-left: 5px;
-    margin-top: 5px;
-    color: #ffffff;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #ffffff;
 }
 
 .small_block_div2 {
-    background-color: #0f4a8a;
-    padding-bottom: 50px;
+  background-color: #0f4a8a;
+  padding-bottom: 50px;
 }
 
 .small_block_div2 h1 {
-    color: #ffffff;
-    font-size: 35px;
-    padding-top: 50px;
-    padding-left: 40px;
+  color: #ffffff;
+  font-size: 35px;
+  padding-top: 50px;
+  padding-left: 40px;
 }
 
 .small_block2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
 
 .small_block2 :hover {
-    background-color: #10355c;
+  background-color: #10355c;
 }
