@@ -1,2 +1,1 @@
-# Paytm-clone
-laxmi-chitt-funds.netlify.app
+# Paytm-clone (laxmi-chitt-funds.netlify.app)
