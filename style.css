@@ -10,7 +10,6 @@ header {
   align-items: center;
   height: 100px;
   background-color: #ffffff;
-  /* border: 2px solid blue; */
 }
 
 .left_header img {
@@ -160,7 +159,6 @@ ol .lastline {
 }
 
 h4 {
-  /* border: 2px solid grey; */
   padding: 12px;
   text-align: center;
   background-color: rgb(240, 238, 238);
